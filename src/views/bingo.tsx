@@ -150,7 +150,7 @@ export const bingoSettings: View<State.Bingo, Actions.Bingo> = (
         }
         value={state.size}
       >
-        {[3, 4, 5, 6, 7].map(size => (
+        {[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map(size => (
           <option value={size}>
             {size} x {size}
           </option>
